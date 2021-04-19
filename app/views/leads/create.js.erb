@@ -1,0 +1,5 @@
+<% if @lead.errors.any? %>
+  alert("Please fill out the entire form");
+<% else %>
+  $("#new_lead").hide()
+<% end %>
